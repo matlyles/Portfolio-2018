@@ -6,13 +6,21 @@
 $black: #0E1118;
 $white: #FFFFFF;
 $grey: #6C7281;
+$blue: #2870FF;
+$purple: #5C28FF;
 
 /* Fonts */
 $body-font-family: 'Montserrat', sans-serif;
 $body-font-size: 1em;
+$body-font-size-2: 1.2em;
+$body-font-size-3: 1.4em;
 
+$body-header-2: 6.8rem;
+$body-header: 4.2em;
+  
 /* Layout */
 $margin-center: 0 auto;
+
 
 body {
 	background: $white;
@@ -119,7 +127,7 @@ a, a:hover {
 		top:0; bottom: 0; left: 0; right: 0;
 	}
 	.title {
-		font-size: 4.6em;
+		font-size: $body-header;
 		font-weight: 900;
 		line-height: 70pt;
 		text-align: center;
@@ -130,15 +138,133 @@ a, a:hover {
 		span {
 			display: block;
 			font-weight: 200;
-			font-size: 6.8rem;
+			font-size: $body-header-2;
 		}
 	}
 	p {
 		text-align: center;
 		line-height: 22pt;
-		font-size: 1.4em;
+		font-size:  $body-font-size-3;
 		font-weight: 400;
 		padding: 0 2%;
 	}
 
+}
+
+.idea-bubble {
+	display: block;
+	margin: $margin-center;
+}
+
+#granim-canvas {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: 0 100%
+}
+.me-pic {
+	text-align: center;
+	margin-top: 50pt;
+
+	img {
+		width: 150pt;
+		margin: auto;
+		border-radius: 100pt;
+	}
+}
+
+#bio {
+	min-height: 500pt;
+	background-size: cover !important;
+}
+#quicklinks {
+	text-align: center;
+	margin: 25pt 0 0 0;
+	height: 90pt;
+
+	img {
+		filter: grayscale(100%);
+		opacity: 0.2;
+		width: 150pt;
+	}
+}
+
+#quicklinks img:hover {
+	opacity: 1;
+	filter: grayscale(0%);
+	 transform: rotate(-5deg);
+	 margin-top: -10pt;
+	 width: 190pt;
+}
+#additional {
+	text-align: center;
+	margin-bottom: 30pt;
+	height:80pt;
+	a {
+		display: inline-block;
+		width: 180pt;
+		line-height: 55pt;
+		height: 55pt;
+		background: $blue;
+		border-radius: 50pt;
+		color: $white;
+		font-weight: 300;
+		font-size: $body-font-size-2;
+	}
+}
+#additional a:hover {
+	box-shadow: 0 14px 25px rgba(0,0,0,0.2);
+	margin-top: -8pt;
+	width: 200pt;
+	background: $purple;
+}
+
+/* Grid */
+
+
+
+#grid {
+	margin-top: 10pt;
+	
+	div {
+		padding:0;
+		margin:0;
+		margin-top: -3pt;
+		position: relative;
+	}
+}
+#grid div {
+	padding:0;
+	margin:0;
+	margin-top: -3pt;
+	position: relative;
+}
+#grid div img {
+	width: 100%;
+}
+#grid .comingsoon {
+	background: #000;
+	margin-bottom: 3pt;
+}
+#grid div .overlay {
+	position: absolute;
+	top: 3pt; bottom: 0; right: -1pt; left: 0;
+	background: rgba(0,0,0,0.8);
+	opacity: 0;
+	padding: 20pt 40pt;
+}
+#grid div .overlay:hover {
+	opacity: 1;
+}
+#grid div .overlay h2 {
+	font-size: 3em;
+	color: #fff;
+	padding: 0;
+	margin: 0;
+	line-height: 1.1em;
+	font-weight: 800;
+}
+#grid div:last-child {
+	display: none;
 }
