@@ -1,0 +1,144 @@
+@import url('ragrid.css');
+@import url(http://fonts.googleapis.com/css?family=Montserrat:200,300,400,700,800,900);
+
+
+/* Colors */
+$black: #0E1118;
+$white: #FFFFFF;
+$grey: #6C7281;
+
+/* Fonts */
+$body-font-family: 'Montserrat', sans-serif;
+$body-font-size: 1em;
+
+/* Layout */
+$margin-center: 0 auto;
+
+body {
+	background: $white;
+	color: $white;
+	font-weight: 300;
+	font-size: $body-font-size;
+	font-family: $body-font-family;
+	height: 100%;
+	min-height: 100% !important;
+	margin: 0;
+	padding: 0;
+	background-color: $white;
+
+		* {
+			box-sizing: border-box; 
+		}
+}
+a, a:hover {
+	text-decoration: none;
+	backface-visibility: hidden;
+	-webkit-tap-highlight-color: transparent;
+		
+}
+
+.animate-all {
+	transition: all 0.2s ease-in-out;
+}
+
+.heading {
+	color: $black;
+	font-weight: 600;
+	display: block;
+	text-align: center;
+	margin: 30pt 0 10pt 0;
+}
+
+#bio, #quicklinks {
+	color: $black;
+}
+
+.mesig {
+	position: absolute;
+	top: 15pt;
+	left: 30pt;
+	width: 90pt;
+}
+
+.mesig-dark {
+	width: 150pt;
+	margin: 0 0 0 -15pt;
+}
+
+.me-bio {
+	text-align: center;
+	margin: 45pt 0 0 0;
+
+	p {
+		color: $grey;
+		font-size: $body-font-size;
+		text-align: center;
+		width:500pt;
+		margin: 0pt auto 35pt auto;
+		line-height: 1.6em;
+	}
+	.me {
+		width: 100pt;
+		border-radius: 50%;
+		overflow: hidden;
+		margin: $margin-center;
+		box-shadow: 0 15px 20px rgba(22,33,56,0.4);
+	}
+
+}
+
+.splash {
+	display: block;
+	height: 100vh;
+	width: 100% +10pt;
+	background-size: 50% 50%;
+  	position: relative;
+  	margin-left: -10pt;
+
+  	.intro {
+		position: absolute;
+		top:50%;
+		left: 50%;
+		width: 500pt;
+		height: 200pt;
+		margin-left: -250pt;
+		margin-top: -140pt;
+	}
+	.illus {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		margin-left: -90pt;
+		width: 150pt;
+	}
+	h1.intro {
+		text-align: center;
+	}
+	.overlay {
+		position: absolute;
+		top:0; bottom: 0; left: 0; right: 0;
+	}
+	.title {
+		font-size: 4.6em;
+		font-weight: 900;
+		line-height: 70pt;
+		text-align: center;
+		padding: 0;
+		margin:0;
+		text-transform: uppercase;
+
+		span {
+			display: block;
+			font-weight: 200;
+			font-size: 6.8rem;
+		}
+	}
+	p {
+		text-align: center;
+		line-height: 22pt;
+		font-size: 1.4em;
+		font-weight: 400;
+		padding: 0 2%;
+	}
+
+}
