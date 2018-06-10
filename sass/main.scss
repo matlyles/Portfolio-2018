@@ -493,3 +493,168 @@ background-image: url('../img/ico_rocketship.svg');
 }
 
 
+/* Media Queries */
+
+@media all and (max-width: 1199px) {
+
+
+	.splash {
+
+	  	.intro {
+			width: 500pt;
+			height: 200pt;
+			margin-left: -250pt;
+			margin-top: -120pt;
+		}
+		.illus {
+			margin-left: -77pt;
+			width: 155pt;
+		}
+		.title {
+			font-size: 3.9em;
+			font-weight: 900;
+			line-height: 55pt;
+			text-align: center;
+			padding: 0;
+			margin:0;
+			text-transform: uppercase;	
+
+			span {
+				font-size: 5.7rem;
+			}
+		}
+		p {
+			text-align: center;
+			line-height: 22pt;
+			font-size: 1.2em;
+			font-weight: 400;
+			padding: 0 10%;
+		}
+
+	}
+	#grid div .overlay {
+		padding: 20pt 20pt;
+		h2 {
+			font-size: 2.5em;
+			line-height: 1em;
+		}
+	}	
+
+
+} 
+/* End 1199px */
+
+@media all and (max-width: 991px) {
+  
+  	#grid div {
+  		 flex-basis: 50%;
+  	}
+	#quicklinks img {
+		width: 130pt;	
+	}
+	.splash .intro {
+		width: 500pt;
+		height: 200pt;
+		margin-left: -250pt;
+		margin-top: -130pt;
+	}
+	.me-bio p {
+		color: #6C7281;
+		font-size: 1em;
+		text-align: center;
+		width:350pt;
+		margin: 0pt auto 30pt auto;
+		line-height: 1.6em;
+	}
+	.splash .title {
+		font-size: 3.5em;
+		font-weight: 900;
+		line-height: 50pt;
+		text-align: center;
+		padding: 0;
+		margin:0;
+		text-transform: uppercase;	
+		span {
+			font-size: 5.1rem;
+		}
+	}
+	.splash p {
+		text-align: center;
+		line-height: 20pt;
+		font-size: 1.1em;
+		font-weight: 400;
+		padding: 0 24%;
+		margin-top: 15pt;
+	}
+
+	#grid div .overlay {
+		padding: 20pt 30pt;
+		h2 {
+			font-size: 3em;
+			line-height: 1em;
+		}	
+	}
+
+}
+/* End 991px */
+
+
+@media all and (max-width: 640px) {
+	.mesig {
+		position: absolute;
+		top: 15pt;
+		left: 50%;
+		width: 100pt;
+		margin-left: -55pt;
+	}
+	.me-bio p {
+		color: #6C7281;
+		font-size: 1em;
+		text-align: center;
+		width:250pt;
+		margin: 0pt auto 30pt auto;
+		line-height: 1.6em;
+	}
+	.splash .intro {
+		width: 300pt;
+		height: 200pt;
+		margin-left: -145pt;
+		margin-top: -135pt;
+	}
+	.splash .overlay {
+		position: absolute;
+		top:0; bottom: 0; left: 0; right: 0;
+	}
+	.splash .title {
+		font-size: 2.7em;
+		line-height: 40pt;
+		 span {
+			font-size: 3.9rem;
+		}	
+	}
+	.splash p {
+		text-align: center;
+		line-height: 20pt;
+		font-size: 1em;
+		font-weight: 400;
+		padding: 0 10%;
+		margin-top: 15pt;
+	}
+	#grid div {
+  		 flex-basis: 100%;
+  	}
+ 	#quicklinks {
+ 		margin-top: 25pt;
+ 		margin-bottom: 115pt;
+ 		div {
+			flex-basis: 100%;
+			margin-bottom: 25pt;
+		}
+		img {
+			width: 150pt;
+			filter: grayscale(0%);
+			opacity: 1;
+		}
+ 	}
+}
+/* End 640px */

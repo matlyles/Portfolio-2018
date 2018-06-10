@@ -530,31 +530,6 @@ background-image: url('../img/ico_rocketship.svg');
 }
 
 
-/*
-@media all and (max-width: 1199px) {
-	#grid div {
-		width: 40%;
-	}
-	#grid div .overlay {
-		padding: 0;
-	}
-} 
-@media all and (max-width: 991px) {
-	
-		#grid div {
-		min-width: 400pt;
-	}
-
-} 
-@media all and (max-width: 768px) {
-
-} 
-@media all and (max-width: 575px) {
-
-}
- 
-
-*/
 
 @media all and (max-width: 1199px) {
 	.splash img.illus {
