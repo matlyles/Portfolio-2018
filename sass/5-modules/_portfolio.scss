@@ -1,0 +1,44 @@
+/* 
+//#####################
+// Portfolio
+// #####################
+*/
+#grid {
+	margin-top: 10pt;
+	
+	div {
+		padding:0;
+		margin:0;
+		margin-top: -3pt;
+		position: relative;
+
+		img {
+			width: 100%;
+		}
+		.overlay {
+			position: absolute;
+			top: 3pt; bottom: 0; right: -1pt; left: 0;
+			background: rgba(0,0,0,0.8);
+			opacity: 0;
+			padding: 20pt 40pt;
+			h2 {
+				font-size: 3em;
+				color: #fff;
+				padding: 0;
+				margin: 0;
+				line-height: 1.1em;
+				font-weight: 800;
+			}
+		}
+		.overlay:hover {
+			opacity: 1;
+		}
+	}
+	.comingsoon {
+		background: #000;
+		margin-bottom: 3pt;
+	}
+	div:last-child {
+		display: none;
+	}
+}

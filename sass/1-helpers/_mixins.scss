@@ -15,10 +15,8 @@
 }
 
 @mixin box-shadow($right, $top,$feather,$color) {
-
   -webkit-box-shadow: $right $top $feather $color;
      -moz-box-shadow: $right $top $feather $color;
       -ms-box-shadow: $right $top $feather $color;
           box-shadow: $right $top $feather $color;
 }
-

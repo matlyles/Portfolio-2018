@@ -9,16 +9,6 @@
 	],
 "creatorBuild": "26680",
 "files": {
-	"\/css\/animate.min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/animate.min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
 	"\/css\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -43,26 +33,6 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/css\/port-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/ragrid-min.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/ragrid-min-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/css\/ragrid.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/css\/ragrid-min.css",
 		"oF": 0,
 		"oS": 3
 		},
@@ -378,6 +348,45 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/2-base\/_globals.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/2-base\/_globals.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/2-base\/_grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/2-base\/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/2-base\/_typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/2-base\/_typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/3-animations\/_3-animations.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -387,19 +396,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/3-animations\/_3-animations.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/sass\/3-animations\/_clouds.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/sass\/3-animations\/_clouds.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -430,6 +426,32 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/sass\/4-layout\/_header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/4-layout\/_header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/4-layout\/_intro.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/4-layout\/_intro.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/sass\/5-modules\/_5-modules.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -439,6 +461,58 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/sass\/5-modules\/_5-modules.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/5-modules\/_clouds.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/5-modules\/_clouds.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/5-modules\/_portfolio.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/5-modules\/_portfolio.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/6-overrides\/_6-overrides.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/6-overrides\/_6-overrides.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/sass\/6-overrides\/_media-queries.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/sass\/6-overrides\/_media-queries.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
