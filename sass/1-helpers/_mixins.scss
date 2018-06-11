@@ -1,0 +1,24 @@
+// Mixins
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+@mixin transition($type) {
+-webkit-transition: $type 0.2s ease-in-out;
+   -moz-transition: $type 0.2s ease-in-out;
+	-ms-transition: $type 0.2s ease-in-out;
+		transition: $type 0.2s ease-in-out;
+}
+
+@mixin box-shadow($right, $top,$feather,$color) {
+
+  -webkit-box-shadow: $right $top $feather $color;
+     -moz-box-shadow: $right $top $feather $color;
+      -ms-box-shadow: $right $top $feather $color;
+          box-shadow: $right $top $feather $color;
+}
+

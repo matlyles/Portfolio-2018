@@ -1,0 +1,44 @@
+// #####################
+// Dev Setup
+// #####################
+
+
+css/
+docs/
+img/
+js/
+sass/
+	1-helpers/
+		_1-helpers.scss
+		_mixins.scss
+		_variables.scss
+	2-base/
+		_2-base.scss
+		_globals.scss
+		_reset.scss
+		_typography.scss
+	3-animations/
+		_3-animations.scss
+		_keyframe.scss
+		_clouds.scss
+	4-layout/
+		_4-layout.scss
+		_header.scss
+		_navigation.scss
+		_body.scss
+		_footer.scss
+	5-modules/
+		_4-modules.scss
+		_gallery.scss
+		_video.scss
+
+
+
+// Including all of the SaSS files
+
+@import '1-helpers/1-helpers';
+@import '2-base/2-base';
+@import '3-animations/3-animations';
+@import '4-layout/4-layout';
+@import '5-modules/5-modules';
+

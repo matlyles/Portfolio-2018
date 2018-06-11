@@ -1,0 +1,55 @@
+
+@-webkit-keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes Float {
+  from {
+	transform: translateX(100%) translateZ(0);
+  }
+  to {
+	transform: translateX(-15%) translateZ(0);
+  }
+}
+@keyframes Float {
+  from {
+	transform: translateX(100%) translateZ(0);
+  }
+  to {
+	transform: translateX(-15%) translateZ(0);
+  }
+}
+
+@-webkit-keyframes FadeFloat {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  90% {
+    opacity: 1;
+  }
+}
+@keyframes FadeFloat {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  5%,
+  90% {
+    opacity: 1;
+  }
+}
